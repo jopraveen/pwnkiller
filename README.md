@@ -12,3 +12,29 @@
 - ret2shellcode
 - rop (sigrop/exploit with syscalls)
 ```
+
+### usage
+```js
+➜  pwnkiller  ./pwnkiller.py -h
+
+           ██████╗ ██╗    ██╗███╗   ██╗██╗  ██╗██╗██╗     ██╗     ███████╗██████╗ 
+           ██╔══██╗██║    ██║████╗  ██║██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
+           ██████╔╝██║ █╗ ██║██╔██╗ ██║█████╔╝ ██║██║     ██║     █████╗  ██████╔╝
+           ██╔═══╝ ██║███╗██║██║╚██╗██║██╔═██╗ ██║██║     ██║     ██╔══╝  ██╔══██╗
+           ██║     ╚███╔███╔╝██║ ╚████║██║  ██╗██║███████╗███████╗███████╗██║  ██║
+           ╚═╝      ╚══╝╚══╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝ 
+                             Jopraveen{w31c0M3_70_PwN_4nD_P41n}
+
+usage: pwnkiller.py [-h] -b  [-of] [-ip] [-p] [-exp] [-win]
+
+Pwnkiller goes bruhhhhh...
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -b , --binary       binary file
+  -of , --offset      manually specify offset to the return address
+  -ip , --IPaddress   IP of the remote server
+  -p , --port         Port of the remote server
+  -exp , --exploit    Specify the exploitation technique
+  -win , --winaddr    Win address
+```
