@@ -38,3 +38,6 @@ optional arguments:
   -exp , --exploit    Specify the exploitation technique
   -win , --winaddr    Win address
 ```
+
+### challenges solved/tested by pwnkiller
+- **[See here](https://github.com/jopraveen/pwnkiller/blob/main/challenges/README.md)**
