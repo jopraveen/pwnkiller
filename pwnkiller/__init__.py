@@ -323,7 +323,7 @@ class exploit():
             exit()
 
     def srop(binary,offset,ip=None,port=None):
-        if offset == 38:
+        if offset % 8 != 0:
             offset = offset + 2
         context.log_level = "INFO"
         log.info("Trying ROP with ropper")
