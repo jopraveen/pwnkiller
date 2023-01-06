@@ -1,4 +1,4 @@
-# pwnkiller (beta)
+# pwnkiller (beta v1)
 
 - Pwnkiller is an automated tool for solving pwn challenges
 - It isn't capable of solving all pwn challenges, but it can handle plenty of warmup and easy stack challenges
