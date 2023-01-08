@@ -11,6 +11,7 @@
 - ret2plt
 - ret2shellcode
 - rop (sigrop/exploit with syscalls)
+- remote exploit
 ```
 
 ### usage
